@@ -198,11 +198,30 @@ padding-top:20px;
  margin-top:90px;
  
  }
+  .gal
+ {
+ min-height:600px;
+ background-color: #333;
+ 
+
+ margin-top:90px;
+ 
+ }
+   .gall
+ {
+ min-height:700px;
+ background-color: #333;
+ 
+
+ margin-top:150px;
+ 
+ }
+
 
   .splitter
  {
- min-height:100px;
- background-color: rebeccapurple;
+ min-height:150px;
+ background:#fc0983;
  margin-top:90px;
  
  }
@@ -220,6 +239,7 @@ padding-top:20px;
     color: #fff;
     font-weight: bold;
 }
+
 
 .downloadbtn
 {
@@ -263,7 +283,9 @@ border:1px solid #fff;
  {
  padding-top:90px;
  padding-bottom:90px;
+
  }
+
  .shym-option-container
  {
  padding:0 20px;
@@ -779,6 +801,7 @@ height:100%;
 }
 .shym-contact label, input[name="submit"] {
 	position: relative;
+	
 }
 .shym-contact label > span, input, textarea, button {
 	box-sizing: border-box;
@@ -920,6 +943,7 @@ height:35px;
  height:56px;
  line-height:56px!important;
  }
+
 
  }
  
