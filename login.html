@@ -16,9 +16,16 @@ GetTogether
  <![endif]-->
 
 </head>
+
 <body>
-      <div class="shym-preloader"></div>
-      <header class="navbar navbar-inverse navbar-fixed-top heading" role="banner">
+<!-- PRELOADER STARTS HERE -->
+  <div class="shym-preloader"></div>
+  <!-- /PRELOADER ENDS HERE-->
+  
+  
+  
+<!-- HEADER STARTS HERE --> 
+ <header class="navbar navbar-inverse navbar-fixed-top heading" role="banner">
 <div class="container">
 <div class="navbar-header">
 <button type="button" class="navbar-toggle togglebutton" data-toggle="collapse" data-target=".navbar-collapse">
@@ -26,7 +33,6 @@ GetTogether
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
-
 
 
 </button>
@@ -40,17 +46,17 @@ GetTogether
  </ul>
 </div>
 
-
  <div class="collapse navbar-collapse menubar">
                 <ul class="nav navbar-nav navbar-right">
+                    
+          
+		
                     <li><a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-users"></i>Users<i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="login.html">Login</a></li>
-                             <li><a href="signUp.html">Sign Up</a></li>
-                            
-                            
+                            <li><a href="signUp.html">Sign Up</a></li>
 
                         </ul>
                     </li>
@@ -60,54 +66,46 @@ GetTogether
             </div>
 			
 </div>
-</header>
+</header><!---->
 
+<!-- HEADER ENDS HERE -->
 
-  <section class='splitter'>
+<!--GALLERY STARTS HERE -->
+
+  <section class='gal' id="formgal">
   
   
    <div class="home-caption">
-                <div class="home-title">Create an Event</div>
-            </div>
-  
-
-  </section>
-  
-
-  <section class='shym-option'>
-  <div class='container' style=" padding-left: 300px; padding-right: 300px; text-align:center;">
-     <form method="post" action="" class="form-horizontal" id="createForm">
-       
-       
-         <div class="form-group row">
-    <label for="eventType">Type of Event</label>
-    <input type="text" class="form-control" id="event" placeholder="Type of Event">
-        </div>
-
-        <div class="form-group row">
-         <label for="example-datetime-local-input" >Date and time</label>
-     <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
-</div>
+                <div class="home-title">Log In</div>
+        
+               <div class='container' style="padding-left: 300px; padding-right: 300px; text-align:center;">
+     <form method="post" action="" class="form-horizontal" id="mainForm">
 
        <div class="form-group row">
-    <label for="address">Address</label>
-    <input type="address" class="form-control" id="event" placeholder="Address">
+    <label for="LName">Email</label>
+    <input type="email" class="form-control" id="email" placeholder="aadvark@hotmail.com">
         </div>
 
          <div class="form-group row">
-    <label for="txt">Description</label>
-    <textarea class="form-control" id="txt" rows="3" placeholder="Enter a detailed description of your event"></textarea>
+    <label for="txt">Password</label>
+    <input type="password" class="form-control" id="event" placeholder="Password">
+
  </div>
 
-  <a href="#" class="btn btn-lg downloadbtn">Submit</a>
+  <a href="#" class="btn btn-lg downloadbtn">Log In</a>
 
      </form>
   
     </div>
+            </div>
+  
+  
+  
   </section>
-
-	
-
+  
+  <!-- /GALLERY ENDS HERE -->
+  
+<!--SHYM CONTACT START HERE -->
 <footer class="shym-contact">
     
       <div class="container"> 
@@ -193,6 +191,7 @@ GetTogether
       </div>
     
   </footer>
+
 	
   
     <script src="js/jquery.js"></script>
